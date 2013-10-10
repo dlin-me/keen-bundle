@@ -81,13 +81,13 @@ Sending an event in an OOP way.
 
 
     //create an event object with public properties
-   $eventObject = new MyPurchaseEvent();
-   $eventObject->productId = 1;
-   $eventObject->quantity = 2;
-   $eventObject->amount = 120;
+    $eventObject = new MyPurchaseEvent();
+    $eventObject->productId = 1;
+    $eventObject->quantity = 2;
+    $eventObject->amount = 120;
 
 
-   $service->fireEventObject($eventObject); //this is equivalent to the last fireEvent call
+    $service->fireEventObject($eventObject); //this is equivalent to the last fireEvent call
 
 
 
@@ -103,16 +103,15 @@ Sending an event in an OOP way.
        protected $customerAddress;
        private $customerGender;
 
-      //By default, the event collection name will be the class name in camelCase (e.g. myPurchaseEvent)
-      //You can specify the collection name by defining a public method named 'getCollectionName'
-      public function getCollectionName(){
+       //By default, the event collection name will be the class name in camelCase (e.g. myPurchaseEvent)
+       //You can specify the collection name by defining a public method named 'getCollectionName'
+       public function getCollectionName(){
           return 'purchases';
-      }
+       }
 
     }
 
-
-
+ 
 
 License
 -

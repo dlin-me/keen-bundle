@@ -79,19 +79,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="7" selection-start="2213" selection-end="2213" vertical-scroll-proportion="0.0">
+            <state line="113" column="1" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.7394451">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="9" selection-start="298" selection-end="298" vertical-scroll-proportion="0.2468828">
+            <state line="31" column="33" selection-start="709" selection-end="709" vertical-scroll-proportion="-20.666666">
               <folding />
             </state>
           </provider>
@@ -416,13 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="567" selection-end="567" vertical-scroll-proportion="-12.666667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Dlin/Bundle/KeenBundle/KeenServiceTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="13" selection-start="865" selection-end="865" vertical-scroll-proportion="-21.703703">
@@ -467,16 +460,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="7" selection-start="2213" selection-end="2213" vertical-scroll-proportion="0.0">
+        <state line="31" column="33" selection-start="709" selection-end="709" vertical-scroll-proportion="-20.666666">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="298" selection-end="298" vertical-scroll-proportion="0.2468828">
+        <state line="19" column="10" selection-start="567" selection-end="567" vertical-scroll-proportion="-12.666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="1" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.7394451">
           <folding />
         </state>
       </provider>
