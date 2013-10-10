@@ -9,15 +9,103 @@ class KeenService
 {
 
     /**
+     * This is a holder of events scheduled to  fire
+     * @var array
+     */
+    protected  $eventSchedule ;
+
+
+
+
+    /**
      * Constructor
      *
      * @inheritdoc
      */
-    function __construct($projectId, $writeKey, $readKey)
+    public function __construct($projectId, $writeKey, $readKey)
     {
         KeenIO::configure($projectId, $writeKey, $readKey);
+        $this->eventSchedule = array();
+    }
+
+
+    /**
+     * Fire all events in schedule
+     */
+    public function fireScheduledEvents(){
+
+        foreach($this->eventSchedule as $event){
+            $collectionName = reset($event);
+            $data = array_pop($event);
+            $this->fireEvent($collectionName, $data);
+        }
+        $this->eventSchedule = array();
 
     }
+
+
+    /**
+     * Get an array of event in the schedules
+     *
+     * @param $collectionName
+     */
+    public function getScheduledEvent($collectionName){
+        $newArray = array();
+        foreach($this->eventSchedule as $event){
+            if( $collectionName == reset($event)){
+                $newArray[] = $event;
+            }
+        }
+        return $newArray;
+    }
+
+
+
+    /**
+     * Cancel an event in the schedule using the collection name
+     *
+     * @param $collectionName
+     */
+    public function cancelScheduledEvents($collectionName) {
+        $newArray = array();
+        foreach($this->eventSchedule as $event){
+            if( $collectionName != reset($event)){
+                $newArray[] = $event;
+            }
+        }
+        $this->eventSchedule = $newArray;
+    }
+
+
+    /**
+     * Schedule an event to fire later. i.e. at the end of the script execution
+     *
+     * @param $eventObject
+     * @param null $collectionName
+     */
+    public function scheduleEventObject($eventObject, $collectionName =null){
+        $event = array($this->getCollectionName($eventObject, $collectionName), get_object_vars($eventObject));
+        $this->eventSchedule[]  =$event;
+
+    }
+
+
+    /**
+     *
+     * * Schedule an event to fire later. i.e. at the end of the script execution
+     *
+     * @param $collectionName
+     * @param $data
+     */
+    public function scheduleEvent($collectionName, $data){
+
+        $event = array($collectionName, $data);
+        $this->eventSchedule[]  =$event;
+
+    }
+
+
+
 
     /**
      * Fire an event with data encapsulated in an object.
@@ -28,7 +116,7 @@ class KeenService
      *
      * @param $eventObject
      */
-    function fireEventObject($eventObject, $collectionName = null){
+    public function fireEventObject($eventObject, $collectionName = null){
         $collectionName = $this->getCollectionName($eventObject, $collectionName);
 
         $data = get_object_vars($eventObject);
@@ -39,12 +127,12 @@ class KeenService
     /**
      * Fire an event with the given event collection name and data
      *
-     * @param $collection
+     * @param $collectionName
      * @param $data
      */
-    function fireEvent($collection, $data){
+    public function fireEvent($collectionName, $data){
 
-        KeenIO::addEvent($collection, $data);
+        KeenIO::addEvent($collectionName, $data);
     }
 
     /**

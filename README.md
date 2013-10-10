@@ -113,6 +113,22 @@ Sending an event in an OOP way.
 
 
 
+Sometimes sending event can slow down your page and affect user experience. You can schedule to fire an event only after theh current script finish execution.
+This avoids slowing down the page loading.
+
+    ...
+    $service->scheduleEventObject($eventObject);
+    $service->scheduleEvent('event_collection_name', array('data'=>123));
+    ...
+
+    //You can get scheduled events using collection name
+    $service->getScheduledEvent('event_collection_name');
+
+    //You can also cancel schedule events by event collection name
+    $service->cancelScheduledEvents('event_collection_name');
+
+
+
 License
 -
 
