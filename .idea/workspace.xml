@@ -7,12 +7,24 @@
     <file path="/composer.json" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381378908873" ignored="false" />
     <file path="/test.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381381059032" ignored="false" />
     <file path="/DlinKeenBundle.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381379790703" ignored="false" />
-    <file path="/a.dummy" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381382350104" ignored="false" />
+    <file path="/a.dummy" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381384545221" ignored="false" />
     <file path="/services.xml" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381379877705" ignored="false" />
-    <file path="/KeenService.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381381769803" ignored="false" />
+    <file path="/KeenService.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381384674851" ignored="false" />
     <file path="/phpunit.xml.dist" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381381867632" ignored="false" />
     <file path="/KeenServiceTest.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381382303724" ignored="false" />
     <file path="/README.md" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381383424150" ignored="false" />
+    <file path="/Dummy.txt" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381383453002" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../dominance/composer.json" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381383460960" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../dominance/.idea/workspace.xml" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381384888156" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../dominance/vendor/dlin/sentry-bundle/Dlin/Bundle/SentryBundle/Service/SentryService.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381383744712" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../dominance/app/AppKernel.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381383776219" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../dominance/app/cache/dev/appDevDebugProjectContainer.xml" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381384756040" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../dominance/app/config/config.yml" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381384740274" ignored="false" />
+    <file path="/config.yml" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381383991746" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../dominance/src/E1/Bundle/CoreBundle/EventSubscriber/UserEventSubscriber.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381384656030" ignored="false" />
+    <file path="/UserEventSubscriber.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381384360884" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../dominance/app/logs/dev.log" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381384780062" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../dominance/vendor/dlin/keen-bundle/Dlin/Bundle/KeenBundle/Service/KeenService.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381384817445" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +47,7 @@
       <file leaf-file-name="services.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/config/services.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+            <state line="11" column="17" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -44,7 +56,7 @@
       <file leaf-file-name="KeenService.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Service/KeenService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="-2.6666667">
+            <state line="15" column="56" selection-start="217" selection-end="217" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -79,19 +91,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.33582088">
+            <state line="15" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="-10.8">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="33" selection-start="709" selection-end="709" vertical-scroll-proportion="-20.666666">
+            <state line="13" column="33" selection-start="339" selection-end="339" vertical-scroll-proportion="0.29177058">
               <folding />
             </state>
           </provider>
@@ -134,9 +146,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/DlinKeenBundle.php" />
-        <option value="$PROJECT_DIR$/Resources/config/services.xml" />
         <option value="$PROJECT_DIR$/DependencyInjection/Configuration.php" />
         <option value="$PROJECT_DIR$/DependencyInjection/DlinSentryExtension.php" />
         <option value="$PROJECT_DIR$/test.php" />
@@ -145,6 +155,8 @@
         <option value="$PROJECT_DIR$/Tests/Dlin/Bundle/KeenBundle/KeenServiceTest.php" />
         <option value="$PROJECT_DIR$/Service/KeenService.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Resources/config/services.xml" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -197,6 +209,66 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="KeenBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KeenBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KeenBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KeenBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KeenBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KeenBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KeenBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KeenBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KeenBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,20 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Service/KeenService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="-2.6666667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/config/services.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DependencyInjection/DlinKeenExtension.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="33" selection-start="567" selection-end="567" vertical-scroll-proportion="-10.666667">
@@ -460,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="33" selection-start="709" selection-end="709" vertical-scroll-proportion="-20.666666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="10" selection-start="567" selection-end="567" vertical-scroll-proportion="-12.666667">
@@ -476,7 +527,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.33582088">
+        <state line="15" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="-10.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Service/KeenService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="56" selection-start="217" selection-end="217" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/config/services.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="339" selection-end="339" vertical-scroll-proportion="0.29177058">
           <folding />
         </state>
       </provider>

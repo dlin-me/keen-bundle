@@ -7,15 +7,15 @@
     <parameters>
       <parameter key="dlin.keen_service.class">Dlin\Bundle\KeenBundle\Service\KeenService</parameter>
       <parameter key="dlin.keen_service.project_id"></parameter>
-      <parameter key="dlin.keen_service.read_key"></parameter>
       <parameter key="dlin.keen_service.write_key"></parameter>
+      <parameter key="dlin.keen_service.read_key"></parameter>
     </parameters>
 
     <services>
         <service id="dlin.keen_service" class="%dlin.keen_service.class%">
           <argument on-invalid="ignore">%dlin.keen_service.project_id%</argument>
-          <argument on-invalid="ignore">%dlin.keen_service.read_key%</argument>
           <argument on-invalid="ignore">%dlin.keen_service.write_key%</argument>
+          <argument on-invalid="ignore">%dlin.keen_service.read_key%</argument>
         </service>
     </services>
 </container>
