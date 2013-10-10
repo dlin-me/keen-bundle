@@ -46,13 +46,12 @@ Enable the bundle in you AppKernel.php
 
 Configuration
 --------------
-
-The DSN url must be provided in the config.xml file. For example:
+For example:
 
     #app/config/config.yml
 
     dlin_keen:
-        project_id: 12345
+        project_id: werknskviehraf234slf
         read_key: xxxxxxxxxxx
         write_key: xxxxxxxxx
 

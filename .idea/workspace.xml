@@ -12,24 +12,24 @@
     <file path="/KeenService.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381387422288" ignored="false" />
     <file path="/phpunit.xml.dist" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381381867632" ignored="false" />
     <file path="/KeenServiceTest.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381387486224" ignored="false" />
-    <file path="/README.md" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381388048045" ignored="false" />
+    <file path="/README.md" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381388492551" ignored="false" />
     <file path="/Dummy.txt" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381383453002" ignored="false" />
     <file path="$PROJECT_DIR$/../../../dominance/composer.json" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381383460960" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../dominance/.idea/workspace.xml" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381388329168" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../dominance/.idea/workspace.xml" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381388574369" ignored="false" />
     <file path="$PROJECT_DIR$/../../../dominance/vendor/dlin/sentry-bundle/Dlin/Bundle/SentryBundle/Service/SentryService.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381383744712" ignored="false" />
     <file path="$PROJECT_DIR$/../../../dominance/app/AppKernel.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381383776219" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../dominance/app/cache/dev/appDevDebugProjectContainer.xml" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381385623650" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../dominance/app/cache/dev/appDevDebugProjectContainer.xml" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381388526190" ignored="false" />
     <file path="$PROJECT_DIR$/../../../dominance/app/config/config.yml" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381385508539" ignored="false" />
     <file path="/config.yml" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381383991746" ignored="false" />
     <file path="$PROJECT_DIR$/../../../dominance/src/E1/Bundle/CoreBundle/EventSubscriber/UserEventSubscriber.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381388196833" ignored="false" />
     <file path="/UserEventSubscriber.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381388183215" ignored="false" />
     <file path="$PROJECT_DIR$/../../../dominance/app/logs/dev.log" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381385623650" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../dominance/vendor/dlin/keen-bundle/Dlin/Bundle/KeenBundle/Service/KeenService.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381385340729" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../dominance/vendor/dlin/keen-bundle/Dlin/Bundle/KeenBundle/Service/KeenService.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381388526190" ignored="false" />
     <file path="$PROJECT_DIR$/../../../dominance/vendor/dlin/keen-bundle/Dlin/Bundle/KeenBundle/.idea/workspace.xml" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381385340729" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../dominance/vendor/dlin/keen-bundle/Dlin/Bundle/KeenBundle/Resources/config/services.xml" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381385340729" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../dominance/vendor/dlin/keen-bundle/Dlin/Bundle/KeenBundle/Resources/config/services.xml" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381388526190" ignored="false" />
     <file path="$PROJECT_DIR$/../../../dominance/src/E1/Bundle/CoreBundle/EventListener/SystemEventListener.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381386155290" ignored="false" />
     <file path="/SystemEventListener.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381386221295" ignored="false" />
-    <file path="/KeenEventListener.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381387436037" ignored="false" />
+    <file path="/KeenEventListener.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381388534877" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +79,9 @@
       <file leaf-file-name="KeenEventListener.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EventListener/KeenEventListener.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="627" selection-end="627" vertical-scroll-proportion="-7.673077">
+            <state line="2" column="51" selection-start="58" selection-end="58" vertical-scroll-proportion="-0.6923077">
               <folding>
-                <element signature="e#68#129#0" expanded="true" />
+                <element signature="e#73#134#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,7 +119,7 @@
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="0" selection-start="2571" selection-end="2571" vertical-scroll-proportion="-60.24">
+            <state line="49" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="-8.4">
               <folding />
             </state>
           </provider>
@@ -128,7 +128,7 @@
       <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="31" selection-start="397" selection-end="397" vertical-scroll-proportion="0.38154614">
+            <state line="15" column="21" selection-start="362" selection-end="362" vertical-scroll-proportion="0.33665836">
               <folding />
             </state>
           </provider>
@@ -161,11 +161,11 @@
         <option value="$PROJECT_DIR$/phpunit.xml.dist" />
         <option value="$PROJECT_DIR$/EventListener/SystemEventListener.php" />
         <option value="$PROJECT_DIR$/Service/KeenService.php" />
-        <option value="$PROJECT_DIR$/EventListener/KeenEventListener.php" />
         <option value="$PROJECT_DIR$/Tests/Dlin/Bundle/KeenBundle/KeenServiceTest.php" />
         <option value="$PROJECT_DIR$/Resources/config/services.xml" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/EventListener/KeenEventListener.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -575,15 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EventListener/KeenEventListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="627" selection-end="627" vertical-scroll-proportion="-7.673077">
-          <folding>
-            <element signature="e#68#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/config/services.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="14" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
@@ -607,14 +598,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="0" selection-start="2571" selection-end="2571" vertical-scroll-proportion="-60.24">
+        <state line="49" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="-8.4">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EventListener/KeenEventListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="58" selection-end="58" vertical-scroll-proportion="-0.6923077">
+          <folding>
+            <element signature="e#73#134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="397" selection-end="397" vertical-scroll-proportion="0.38154614">
+        <state line="15" column="21" selection-start="362" selection-end="362" vertical-scroll-proportion="0.33665836">
           <folding />
         </state>
       </provider>

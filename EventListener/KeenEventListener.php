@@ -1,6 +1,6 @@
 <?php
 
-namespace Dlin\Bundle\KeenBundle\Listener\KeenEventListener;
+namespace Dlin\Bundle\KeenBundle\EventListener\KeenEventListener;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpKernel\Event\PostResponseEvent;
 
