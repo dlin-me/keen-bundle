@@ -10,8 +10,7 @@
     <parameter key="dlin.keen_service.write_key"></parameter>
     <parameter key="dlin.keen_service.read_key"></parameter>
 
-    <parameter key="dlin.keen_service.event_listener.class">Dlin\Bundle\KeenBundle\EventListener\KeenEventListener
-    </parameter>
+    <parameter key="dlin.keen_service.event_listener.class">Dlin\Bundle\KeenBundle\EventListener\KeenEventListener</parameter>
   </parameters>
 
   <services>
