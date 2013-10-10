@@ -12,7 +12,7 @@
     <file path="/KeenService.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381381769803" ignored="false" />
     <file path="/phpunit.xml.dist" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381381867632" ignored="false" />
     <file path="/KeenServiceTest.php" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381382303724" ignored="false" />
-    <file path="/README.md" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381383120401" ignored="false" />
+    <file path="/README.md" changelist="ee54da20-17bd-4774-9ce2-991e7ca4dfa9" time="1381383424150" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="1" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.7394451">
+            <state line="15" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.33582088">
               <folding />
             </state>
           </provider>
@@ -476,7 +476,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="1" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.7394451">
+        <state line="15" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.33582088">
           <folding />
         </state>
       </provider>

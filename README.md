@@ -4,7 +4,7 @@ Dlin Symfony Keen Bundle
 Dlin Keen Bundle is Symfony2 wrapper bundle for the 'Keen.IO' PHP library:
 
 
-This Sentry Bundle provides a configurable service to work with Keen.IO
+This Keen Bundle provides a configurable service to work with Keen.IO
 
 
 
@@ -39,7 +39,7 @@ Enable the bundle in you AppKernel.php
     {
         $bundles = array(
         ...
-        new Dlin\Bundle\SentryBundle\DlinKeenBundle(),
+        new Dlin\Bundle\KeenBundle\DlinKeenBundle(),
         ...
     }
 
@@ -111,7 +111,7 @@ Sending an event in an OOP way.
 
     }
 
- 
+
 
 License
 -
