@@ -37,29 +37,34 @@ class KeenServiceTest extends \PHPUnit_Framework_TestCase{
 
         $service->scheduleEventObject(new MyTest());
 
-        $events = $service->getScheduledEvent('TestMe');
+        $events = $service->getScheduledEvents('TestMe');
 
         $this->assertEquals(1, count($events));
 
-        $this->assertArrayHasKey('p2', $events[0][1]);
+        $this->assertEquals('value2', $events[0]['p2']);
 
         $service->scheduleEvent('TestEvent2', array('hoho'=>2));
         $service->scheduleEvent('TestEvent2', array('hoho'=>3));
 
-        $events = $service->getScheduledEvent('TestEvent2');
+        $events = $service->getScheduledEvents('TestEvent2');
 
-        $this->assertArrayHasKey('hoho', $events[0][1]);
+        $this->assertEquals(2, count($events));
+
+        $this->assertEquals(2, $events[0]['hoho']);
 
         $service->cancelScheduledEvents('TestEvent2');
-        $events = $service->getScheduledEvent('TestEvent2');
+
+
+
+        $events = $service->getScheduledEvents('TestEvent2');
 
         $this->assertEquals(0, count($events));
 
-        $events = $service->getScheduledEvent('TestMe');
+        $events = $service->getScheduledEvents('TestMe');
 
         $this->assertEquals(1, count($events));
 
-        $this->assertArrayHasKey('p2', $events[0][1]);
+        $this->assertEquals('value1', $events[0]['p1']);
 
 
     }

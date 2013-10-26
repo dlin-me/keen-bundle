@@ -3,7 +3,8 @@
 
 namespace Dlin\Bundle\KeenBundle\Service;
 
-use KeenIO\Service\KeenIO;
+use KeenIO\Client\KeenIOClient;
+
 
 class KeenService
 {
@@ -14,8 +15,10 @@ class KeenService
      */
     protected  $eventSchedule ;
 
-
-
+    /**
+     * @var  \KeenIO\Client\KeenIOClient
+     */
+    private $client;
 
     /**
      * Constructor
@@ -24,9 +27,31 @@ class KeenService
      */
     public function __construct($projectId, $writeKey, $readKey)
     {
-        KeenIO::configure($projectId, $writeKey, $readKey);
+
+
+        $this->client = KeenIOClient::factory(array(
+            'projectId' => $projectId,
+            'writeKey' => $writeKey,
+            'readKey' => $readKey
+        ));
+
+
         $this->eventSchedule = array();
     }
+
+
+    /**
+     *
+     * This return the initialized client.
+     * Useful for making query, for example
+     *
+     * @return \Guzzle\Service\Client|KeenIOClient
+     *
+     */
+    public function getClient(){
+        return $this->client;
+    }
+
 
 
     /**
@@ -34,11 +59,7 @@ class KeenService
      */
     public function fireScheduledEvents(){
 
-        foreach($this->eventSchedule as $event){
-            $collectionName = reset($event);
-            $data = array_pop($event);
-            $this->fireEvent($collectionName, $data);
-        }
+        $this->client->addEvents(array('data'=>$this->eventSchedule));
         $this->eventSchedule = array();
 
     }
@@ -49,14 +70,9 @@ class KeenService
      *
      * @param $collectionName
      */
-    public function getScheduledEvent($collectionName){
-        $newArray = array();
-        foreach($this->eventSchedule as $event){
-            if( $collectionName == reset($event)){
-                $newArray[] = $event;
-            }
-        }
-        return $newArray;
+    public function getScheduledEvents($collectionName){
+
+        return array_key_exists($collectionName, $this->eventSchedule) ? $this->eventSchedule[$collectionName] :array();
     }
 
 
@@ -67,13 +83,7 @@ class KeenService
      * @param $collectionName
      */
     public function cancelScheduledEvents($collectionName) {
-        $newArray = array();
-        foreach($this->eventSchedule as $event){
-            if( $collectionName != reset($event)){
-                $newArray[] = $event;
-            }
-        }
-        $this->eventSchedule = $newArray;
+        unset($this->eventSchedule[$collectionName]);
     }
 
 
@@ -84,9 +94,7 @@ class KeenService
      * @param null $collectionName
      */
     public function scheduleEventObject($eventObject, $collectionName =null){
-        $event = array($this->getCollectionName($eventObject, $collectionName), get_object_vars($eventObject));
-        $this->eventSchedule[]  =$event;
-
+        $this->scheduleEvent($this->getCollectionName($eventObject, $collectionName),get_object_vars($eventObject) );
     }
 
 
@@ -99,8 +107,11 @@ class KeenService
      */
     public function scheduleEvent($collectionName, $data){
 
-        $event = array($collectionName, $data);
-        $this->eventSchedule[]  =$event;
+        if(!isset($this->eventSchedule[$collectionName])){
+            $this->eventSchedule[$collectionName] = array();
+        }
+        $this->eventSchedule[$collectionName][] = $data;
+
 
     }
 
@@ -132,7 +143,7 @@ class KeenService
      */
     public function fireEvent($collectionName, $data){
 
-        KeenIO::addEvent($collectionName, $data);
+        $this->client->addEvent($collectionName, array('data'=> $data));
     }
 
     /**
