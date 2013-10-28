@@ -15,7 +15,7 @@
 
     "version": "0.9.6",
 
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "target-dir": "Dlin/Bundle/KeenBundle",
 
     "autoload": {
