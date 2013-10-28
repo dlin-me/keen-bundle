@@ -80,9 +80,21 @@
       <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="39" selection-start="606" selection-end="606" vertical-scroll-proportion="0.40519482" vertical-offset="0" max-vertical-offset="1155">
+            <state line="21" column="39" selection-start="503" selection-end="503" vertical-scroll-proportion="0.3272727" vertical-offset="0" max-vertical-offset="1155">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.lock" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="28494">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -274,13 +286,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Service/KeenService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="42" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="1062" max-vertical-offset="3222">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="10" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="450">
@@ -367,9 +372,19 @@
         <state line="49" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="0.023584906" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="28494">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="39" selection-start="606" selection-end="606" vertical-scroll-proportion="0.40519482" vertical-offset="0" max-vertical-offset="1155">
+        <state line="21" column="39" selection-start="503" selection-end="503" vertical-scroll-proportion="0.3272727" vertical-offset="0" max-vertical-offset="1155">
           <folding />
         </state>
       </provider>
