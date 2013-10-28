@@ -13,9 +13,9 @@
     ],
     "homepage": "http://dlin.me",
 
-    "version": "1.0",
+    "version": "1.0.1",
 
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "target-dir": "Dlin/Bundle/KeenBundle",
 
     "autoload": {
@@ -24,7 +24,7 @@
 
     "require": {
         "php": ">=5.3.8",
-        "keen-io/keen-io": "dev-master@dev"
+        "keen-io/keen-io": "dev-master"
     },
 
     "require-dev": {
