@@ -58,8 +58,9 @@ class KeenService
      * Fire all events in schedule
      */
     public function fireScheduledEvents(){
-
-        $this->client->addEvents(array('data'=>$this->eventSchedule));
+        if(count($this->eventSchedule) > 0 ){
+            $this->client->addEvents(array('data'=>$this->eventSchedule));
+        }
         $this->eventSchedule = array();
 
     }

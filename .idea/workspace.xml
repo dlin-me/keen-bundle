@@ -53,16 +53,16 @@
       <file leaf-file-name="KeenEventListener.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EventListener/KeenEventListener.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="3" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="918">
+            <state line="7" column="3" selection-start="180" selection-end="180" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeenService.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="KeenService.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Service/KeenService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="42" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="1062" max-vertical-offset="3222">
+            <state line="61" column="74" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.4831169" vertical-offset="540" max-vertical-offset="3240">
               <folding />
             </state>
           </provider>
@@ -77,19 +77,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="0.24935065" vertical-offset="0" max-vertical-offset="1155">
+            <state line="16" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="756">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.lock" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="5166" max-vertical-offset="23724">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DlinKeenBundle.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DlinKeenBundle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="306">
+            <state line="11" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -115,9 +127,10 @@
         <option value="$PROJECT_DIR$/Resources/config/services.xml" />
         <option value="$PROJECT_DIR$/EventListener/KeenEventListener.php" />
         <option value="$PROJECT_DIR$/Tests/Dlin/Bundle/KeenBundle/KeenServiceTest.php" />
-        <option value="$PROJECT_DIR$/Service/KeenService.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/composer.lock" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/Service/KeenService.php" />
       </list>
     </option>
   </component>
@@ -169,6 +182,48 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="keen-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KeenBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keen-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KeenBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keen-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KeenBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keen-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EventListener" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,7 +311,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27048528" sideWeight="0.67142856" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27525854" sideWeight="0.67142856" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -283,13 +338,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="756">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="10" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="450">
@@ -338,13 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EventListener/KeenEventListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="252">
@@ -359,13 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Service/KeenService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="42" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="1062" max-vertical-offset="3222">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="0.023584906" vertical-offset="0" max-vertical-offset="0" />
@@ -373,14 +407,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DlinKeenBundle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="306">
+        <state line="11" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="5166" max-vertical-offset="23724">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="0.24935065" vertical-offset="0" max-vertical-offset="1155">
+        <state line="16" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EventListener/KeenEventListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="180" selection-end="180" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Service/KeenService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="74" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.4831169" vertical-offset="540" max-vertical-offset="3240">
           <folding />
         </state>
       </provider>
