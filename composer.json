@@ -24,7 +24,7 @@
 
     "require": {
         "php": ">=5.3.8",
-        "keen-io/keen-io": "~1.0"
+        "keen-io/keen-io": "~0.9"
     },
 
     "require-dev": {
